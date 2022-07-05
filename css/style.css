@@ -1,0 +1,192 @@
+body {
+  overflow-y: scroll;
+  font-family: "Poppins", sans-serif;
+}
+body a {
+  text-decoration: none;
+}
+body .img_url {
+  background-image: url("https://demo.rishav.tech/wp-content/uploads/2021/03/bg-001-free-img.jpg");
+}
+body .bg-image {
+  height: 100vh;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 0;
+}
+body .bg-image:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(17, 8, 70, 0.425);
+  content: " ";
+}
+body .bg-image .bt_border {
+  border-bottom: 0.5px solid white;
+}
+body .bg-image i {
+  margin-right: 0.5rem;
+  font-size: 1.25rem;
+}
+body ul {
+  margin-left: auto;
+}
+body button {
+  border: 1px solid white !important;
+}
+body button:hover {
+  background-color: white;
+  color: rgb(19, 19, 63) !important;
+}
+body h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 5rem;
+}
+body .line {
+  height: 2px;
+  background-color: rgb(107, 89, 52);
+  width: 3rem;
+  margin-bottom: 1.5rem;
+}
+body .white_bg {
+  background-color: rgb(210, 241, 231);
+}
+body .rel {
+  position: relative;
+}
+body .rel .play {
+  color: rgb(107, 89, 52);
+  font-size: 2rem;
+  padding: 1.5rem 1.5rem 1.5rem 1.8rem;
+}
+body .rel .play:hover {
+  color: rgb(31, 31, 66);
+}
+body .border_TB {
+  padding: 2rem 0;
+  margin: 3rem 0;
+  border-top: 1px solid rgb(28, 28, 83);
+  border-bottom: 1px solid rgb(28, 28, 83);
+}
+body .abs {
+  position: absolute;
+  top: 5rem;
+  right: 46%;
+  height: 20%;
+  width: 10%;
+  border-radius: 50%;
+  background-color: red;
+}
+body .b_yellow {
+  color: rgb(107, 89, 52);
+}
+body .b_yellow:hover {
+  color: rgba(23, 23, 87, 0.836);
+}
+body .light_bold {
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+body .experiance {
+  background-image: url("https://img.freepik.com/free-vector/law_1284-19049.jpg?size=626&ext=jpg&ga=GA1.2.1233100574.1641480521");
+}
+body .practice {
+  padding: 6rem 7rem;
+}
+body .d_blue {
+  color: rgba(23, 23, 87, 0.836);
+}
+body .l_blue {
+  color: rgba(39, 39, 78, 0.836);
+}
+body .anchor {
+  background-color: rgb(107, 89, 52);
+  border-radius: 4rem;
+  padding: 0.5rem 1.5rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+body .firms {
+  padding: 5rem;
+}
+body .reviews {
+  padding: 7rem 0;
+  background-image: url("https://img.freepik.com/free-photo/lawyer-with-client_23-2147984180.jpg?size=626&ext=jpg&ga=GA1.2.1233100574.1641480521");
+}
+body .reviews .minus {
+  color: white;
+  position: absolute;
+  background-color: rgb(107, 89, 52);
+  border-radius: 1.2rem;
+  bottom: -1rem;
+  padding: 0.5rem 1rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin: auto;
+}
+body .prodly {
+  padding: 10% 0;
+}
+body .dont_wait {
+  border-top: 1px solid rgba(51, 51, 133, 0.233);
+  background-image: url("https://images.unsplash.com/photo-1500916238192-534e3e59d5fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZGFsYWwlMjBzdHJlZXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+}
+body .dont_wait i {
+  color: rgb(107, 89, 52);
+}
+body .quick {
+  padding: 1rem 5rem;
+}
+body .quick .q_text {
+  width: 85%;
+}
+body .quick .contact_txt {
+  font-weight: 600;
+}
+body .quick .quick_links h6 {
+  margin: 0.3rem;
+  font-size: 1rem;
+}
+body .copyright {
+  padding: 1.7rem 5rem;
+  margin-bottom: 0 !important;
+  border-top: 1px solid rgba(92, 92, 128, 0.671);
+}
+body .copyright i {
+  margin-left: 0.6rem;
+  font-size: 1.5rem;
+}
+
+.alignment {
+  padding: 0.5rem 5rem 0.5rem 5rem;
+}
+
+.forms {
+  padding: 3rem 5rem;
+}
+.forms input, .forms textarea {
+  background-color: rgba(255, 255, 255, 0.685);
+  border: 1px solid rgba(56, 56, 104, 0.171);
+}
+.forms .help, .forms .phone, .forms .city, .forms .email, .forms .submit {
+  margin-top: 1.5rem;
+}
+.forms .submit button {
+  font-size: 0.7rem;
+  letter-spacing: 0.15rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  background-color: rgb(107, 89, 52);
+  border-radius: 3rem;
+}
+.forms .submit button:hover {
+  color: white !important;
+}/*# sourceMappingURL=style.css.map */
